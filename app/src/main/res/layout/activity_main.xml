@@ -6,15 +6,25 @@
     android:layout_height="match_parent"
     tools:context="de.asschth.wasserstand.MainActivity">
 
-        <Button
-            android:id="@+id/knopf"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:onClick="onClick"
-            android:text="Klick mich!"
-            tools:layout_editor_absoluteX="145dp"
-            tools:layout_editor_absoluteY="269dp" />
+    <Button
+        android:id="@+id/toastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:onClick="toastMessage"
+        android:text="Klick mich!"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/changeActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toastMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Activity 2" />
 
 </RelativeLayout>
