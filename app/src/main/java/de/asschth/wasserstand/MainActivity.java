@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         //Für ActivityChange
         changeActivity2 = (Button) findViewById(R.id.changeActivity2);
         changeActivity2.setOnClickListener (new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+
+            }
+
             public void changeActivity2(){
                 openActivity2();
             }
