@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Button neu "Activity2"
     public void openActivity2(){
-       Intent intent = new Intent(this, Activity2.class);
-       startActivity(intent);
+        startActivity(new Intent(MainActivity.this, Activity2.class));
     }
 
     //Button alt "Klick mich!"
