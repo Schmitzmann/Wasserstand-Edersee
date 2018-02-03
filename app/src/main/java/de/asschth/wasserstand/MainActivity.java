@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button b = (Button) findViewById(R.id.knopf);
 
-        public void klick() {
+        public void onClick(View view) {
             Toast.makeText(MainActivity.this,"Hallo", Toast.LENGTH_LONG).show();
         }
 
     }
-    }
+}
